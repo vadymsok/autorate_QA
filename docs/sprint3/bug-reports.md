@@ -14,7 +14,7 @@
 **Expected result:** Повідомлення про невірні облікові дані відображається на червоному тлі, щоб чітко сигналізувати про помилку.
 **Environment:** demo 25.10.2026; Chrome 129.0; Windows 11; без входу.
 **Attachments:** `BUG-001.png`
-**Reviewer:** 
+**Reviewer:** Дмитро Томашук (Скрам-майстер) | **Review Date:** 2026-10-27 | **Status:** Reviewed & Approved
 
 ---
 
@@ -31,7 +31,7 @@
 **Expected result:** На сторінці наявний блок фільтрів для сортування видачі.
 **Environment:** demo 25.10.2026; Chrome 129.0; Windows 11.
 **Attachments:** `BUG-002.png`
-**Reviewer:** 
+**Reviewer:** Дмитро Томашук (Скрам-майстер) | **Review Date:** 2026-10-27 | **Status:** Reviewed & Approved
 
 ---
 
@@ -48,7 +48,7 @@
 **Expected result:** У профілі наявний розділ «Вибране», де відображається збережена картка автомобіля.
 **Environment:** demo 25.10.2026; Chrome 129.0; Windows 11; user: `user@autorate.com`.
 **Attachments:** `BUG-003.png`
-**Reviewer:** 
+**Reviewer:** Дмитро Томашук (Скрам-майстер) | **Review Date:** 2026-10-27 | **Status:** Reviewed & Approved
 
 ---
 
@@ -65,7 +65,7 @@
 **Expected result:** На формі наявний елемент для вибору оцінки від 1 до 5.
 **Environment:** demo 25.10.2026; Chrome 129.0; Windows 11; user: `user@autorate.com`.
 **Attachments:** `BUG-004.png`
-**Reviewer:** 
+**Reviewer:** Дмитро Томашук (Скрам-майстер) | **Review Date:** 2026-10-27 | **Status:** Reviewed & Approved
 
 ---
 
@@ -81,7 +81,7 @@
 **Expected result:** Таблиця відгуків містить колонку з відображенням виставленої користувачем оцінки [1..5].
 **Environment:** demo 25.10.2026; Chrome 129.0; Windows 11.
 **Attachments:** `BUG-005.png`
-**Reviewer:** 
+**Reviewer:** Дмитро Томашук (Скрам-майстер) | **Review Date:** 2026-10-27 | **Status:** Reviewed & Approved
 
 ---
 
@@ -98,4 +98,4 @@
 **Expected result:** В інтерфейсі наявне поле «Рік випуску від» для виконання пошуку.
 **Environment:** demo 25.10.2026; Chrome 129.0; Windows 11.
 **Attachments:** `BUG-006.png`
-**Reviewer:**
+**Reviewer:** Дмитро Томашук (Скрам-майстер) | **Review Date:** 2026-10-27 | **Status:** Reviewed & Approved
