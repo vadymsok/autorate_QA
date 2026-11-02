@@ -117,3 +117,20 @@
 **Environment:** demo 25.10.2026; Chrome 129.0; Windows 11.
 **Attachments:** `BUG-006.png`
 **Reviewer:** Дмитро Томашук (Скрам-майстер) | **Review Date:** 2026-10-27 | **Status:** Reviewed & Approved
+
+---
+
+## BUG-008
+**Title:** Інтерфейс: Орфографічна помилка у назві поля введення нового пароля ("New Pasword") (GUI-10 / TC-016)
+**Severity:** Minor | **Priority:** P3
+**Linked:** TC-016; GUI-10
+**Description:** У формі зміни пароля в особистому кабінеті допущено друкарську помилку в назві поля «New Pasword» (пропущено літеру "s", має бути «New Password»). Це косметичний дефект, який знижує професійний рівень оформлення інтерфейсу.
+**Steps to reproduce:**
+1. Відкрити `https://buggy.justtestit.org/` та авторизуватися.
+2. Перейти у верхньому меню в розділ «Profile» (Профіль).
+3. Звернути увагу на підпис третього поля в блоці зміни пароля.
+**Actual result:** Поле підписано з помилкою: `New Pasword`.
+**Expected result:** Поле коректно підписано англійською мовою: `New Password`.
+**Environment:** demo 26.10.2026; Chrome 129.0; Windows 11; user: `user@autorate.com`.
+**Attachments:** `BUG-008.png` (скріншот форми зміни пароля з помилкою).
+**Reviewer:** Дмитро Томашук (Скрам-майстер) | **Review Date:** 2026-10-27 | **Status:** Reviewed & Approved
