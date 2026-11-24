@@ -1,0 +1,96 @@
+{
+  "id": "b1a2c3d4-0001-4000-8000-autorate0001",
+  "version": "2.0",
+  "name": "Autorate",
+  "url": "https://buggy.justtestit.org",
+  "tests": [
+    {
+      "id": "t1a2c3d4-0001-4000-8000-test00000001",
+      "name": "TC-02_InvalidLoginAndOverallRating",
+      "commands": [
+        {
+          "id": "cmd-1",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "id": "cmd-2",
+          "command": "setWindowSize",
+          "target": "1280x900",
+          "value": ""
+        },
+        {
+          "id": "cmd-3",
+          "command": "waitForElementVisible",
+          "target": "name=login",
+          "value": "10000"
+        },
+        {
+          "id": "cmd-4",
+          "command": "type",
+          "target": "name=login",
+          "value": "non_existent_user_qa"
+        },
+        {
+          "id": "cmd-5",
+          "command": "type",
+          "target": "name=password",
+          "value": "WrongPass123!"
+        },
+        {
+          "id": "cmd-6",
+          "command": "click",
+          "target": "css=button[type='submit']",
+          "value": ""
+        },
+        {
+          "id": "cmd-7",
+          "command": "waitForElementVisible",
+          "target": "css=.label-warning",
+          "value": "10000"
+        },
+        {
+          "id": "cmd-8",
+          "command": "verifyText",
+          "target": "css=.label-warning",
+          "value": "Invalid username/password"
+        },
+        {
+          "id": "cmd-9",
+          "command": "click",
+          "target": "css=a[href='/overall']",
+          "value": ""
+        },
+        {
+          "id": "cmd-10",
+          "command": "waitForElementVisible",
+          "target": "css=table.cars tbody tr",
+          "value": "10000"
+        },
+        {
+          "id": "cmd-11",
+          "command": "assertElementPresent",
+          "target": "css=table.cars tbody tr",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "s1a2c3d4-0001-4000-8000-suite0000001",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "t1a2c3d4-0001-4000-8000-test00000001"
+      ]
+    }
+  ],
+  "urls": [
+    "https://buggy.justtestit.org/"
+  ],
+  "plugins": []
+}
